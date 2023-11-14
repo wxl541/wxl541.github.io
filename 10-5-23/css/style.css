@@ -1,0 +1,35 @@
+/* This is a comment! */
+
+body {
+    color:red;
+}
+
+/* above is a tag selector, refers to all tags*/
+
+/*
+h1, 
+h2, 
+h3, 
+h4, 
+th {
+    color: red;
+}
+*/
+
+/*
+h1, h2, h3, h4, th {
+    color: red;
+}
+*/
+
+/* below is an attribute selector*/
+
+abbr[title] {
+    color: red;
+}
+
+/* below is an datetime example*/
+
+[datetime^='19'] {
+    color: red;
+}
